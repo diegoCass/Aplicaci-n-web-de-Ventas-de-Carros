@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+    background: transparent;
+    font-family: 'Urbanist', sans-serif;
+    overflow-x: hidden;
+}
+
+a{
+
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:hover{
+
+    color: currentColor;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color: transparent;
+    box-shadow: 0px 3px 8px rgba(119, 119, 119, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+header .container-fluid{
+
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width:992px){
+    header .container-fluid{
+        padding: 5%;
+    }
+}
+
+header .navb-logo img{
+    width: 200px;
+    height: 28px;
+}
+
+header .navb-items{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 3px;
+}
+
+header .item{
+
+    text-align: center;
+    margin-inline: 5%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    padding: 5px 0;
+    transition: all .1s ease;
+    border-bottom: 0px solid #f46464;
+    border-top: 0px solid #f46464;
+    cursor: pointer;
+}
+
+header .item:hover{
+    border-bottom: 3px solid #f46464;
+}
+
+header .item-button a{
+    
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+header .item-button a:hover{
+    border-bottom: 3px solid #f46464;
+}
+
+header .mobile-toggler{
+
+    font-size: 30px;
+}
+
+.menu1{
+    display: none
+}
+
+@media screen and (max-width: 1200px) {
+
+    .menu1{
+        display: inline;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
